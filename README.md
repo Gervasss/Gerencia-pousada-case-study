@@ -15,7 +15,7 @@ O objetivo central foi otimizar a gestão de hospedagem, reduzindo falhas manuai
 * **Frontend:** React + Vite com TypeScript (foco em segurança e previsibilidade do código).
 * **Estilização:** Styled Components e CSS (interface moderna e responsiva).
 * **Backend:** Python com Django.
-* **Banco de Dados:** PostgreSQL (garantindo integridade relacional e escalabilidade).
+* **Banco de Dados:** SQLite (garantindo integridade relacional ).
 
 ---
 
@@ -53,12 +53,60 @@ Fui o **responsável exclusivo por todo o desenvolvimento do Frontend** da aplic
 
 ---
 
+## 📂 Estrutura do Frontend (Minha Atuação)
+
+Como responsável pelo desenvolvimento do frontend, estruturei o projeto para facilitar a integração e manutenção:
+
+```text
+src/
+├── assets/          # Recursos visuais e ícones
+├── components/      # Componentes reutilizáveis (Modais, Inputs, Cards)
+├── pages/           # Telas (Hóspedes, Reservas, Estoque, Quartos, Relatórios)
+├── services/        # Integração com a API Django
+├── styles/          # Temas globais e Styled Components
+├── types/           # Interfaces TypeScript (Reservas, Hóspedes, Produtos)
+└── utils/           # Validadores e formatadores (Datas, Moeda)
+
+---
+```
+
+
+---
+
+### 📂 Estrutura do Backend (Django)
+
+A arquitetura do backend segue o padrão **MVT (Model-View-Template)** do Django, organizada de forma modular para garantir que cada funcionalidade da pousada tenha sua própria responsabilidade e isolamento de lógica.
+
+```text
+backend/
+├── inventory/          # Gestão de estoque e controle de insumos
+├── payments/           # Processamento de faturamentos e transações financeiras
+├── pousada_backend/    # Configurações globais do projeto (settings, urls, wsgi)
+├── reservations/       # Núcleo do sistema: regras de negócio e calendários
+├── rooms/              # Gerenciamento de quartos e controle de disponibilidade
+├── users/              # Autenticação, perfis de hóspedes e administradores
+├── db.sqlite3          # Banco de dados local utilizado no desenvolvimento
+├── manage.py           # Utilitário de linha de comando principal do Django
+├── requirements.txt    # Lista de dependências e bibliotecas Python do projeto
+└── notes.txt           # Documentação técnica interna e rascunhos
+
+```
+
+### 🛠️ Detalhes dos Módulos
+
+* **inventory**: Implementa o controle detalhado de produtos, permitindo baixas automáticas baseadas no consumo registrado.
+* **reservations**: Centraliza as principais regras de negócio, integrando hóspedes, quartos e períodos de estadia sem conflitos.
+* **rooms**: Aplica as validações que impedem reservas duplicadas para o mesmo quarto em datas coincidentes.
+* **users**: Gerencia o cadastro completo de hóspedes e o histórico de estadias para futuras consultas.
+
+---
+
 ## ⚙️ Como Rodar o Projeto (Ambiente de Desenvolvimento)
 
 ### 1. Pré-requisitos
 * Node.js e NPM/Yarn.
 * Python 3.x e ambiente virtual (venv).
-* PostgreSQL instalado.
+* SQLite instalado.
 
 ### 2. Configuração do Backend (Django)
 ```bash
