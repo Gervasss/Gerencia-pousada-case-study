@@ -47,9 +47,30 @@ Fui o **responsável exclusivo por todo o desenvolvimento do Frontend** da aplic
 * Cálculo automático de diárias com base no perfil da reserva (quantidade de pessoas, presença de crianças).
 * **Gestão de Consumo:** Modal para registro de consumo em tempo real, somando valores automaticamente ao total da hospedagem para um fechamento de conta ágil e transparente.
 
-### 📊 Módulo de Relatórios
-* Listagem completa de reservas com filtros por intervalos de datas.
-* Fornece dados atualizados para planejamento operacional e análise de desempenho do estabelecimento.
+### 📊 Módulo de Relatórios de Reservas
+O módulo de relatórios foi desenvolvido para fornecer ao administrador uma visão clara e analítica do desempenho da pousada. Ele consolida dados de faturamento e ocupação, permitindo decisões baseadas em dados.
+
+Principais Funcionalidades:
+Indicadores de Desempenho (KPIs):
+
+* Total de Reservas: Monitoramento da quantidade de reservas efetuadas no período selecionado.
+
+* Receita no Período: Visualização imediata do faturamento bruto.
+
+* Ticket Médio: Cálculo automático do valor médio gasto por reserva, auxiliando na análise de rentabilidade.
+
+* Filtros Inteligentes: Possibilidade de filtrar o histórico por Mês e Ano, além de uma barra de busca para localizar hóspedes ou quartos específicos rapidamente.
+
+* Listagem Detalhada: Tabela organizada contendo ID da reserva, nome do hóspede, número do quarto, datas de check-in/out, status do pagamento e valor total.
+
+* Exportação de Dados: Botão para Exportar em PDF, facilitando o arquivamento offline ou compartilhamento dos dados com a contabilidade.
+
+Tecnologias e Conceitos Aplicados:
+* Data Visualization: Uso de cards destacados para métricas essenciais.
+
+* UX Design: Interface limpa com uso de cores para indicar status (ex: verde para reservas confirmadas).
+
+* Gestão de Estado: Manipulação dinâmica da tabela conforme os filtros aplicados.
 
 ---
 
@@ -155,38 +176,48 @@ npm run dev
 
 Painel:
 
-<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/98ef2733-b02d-4ab3-a84b-b6d7eedd319f" />
+<img width="886" height="425" alt="image" src="https://github.com/user-attachments/assets/66bb9098-469f-4acc-8f0e-281b81f4c07b" />
+
 
 Aba de Hóspedes:
 
-<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/68c3a896-0be4-4b69-a542-5ab9e3848684" />
+<img width="886" height="422" alt="image" src="https://github.com/user-attachments/assets/ce2391ab-a8c3-4e14-b55e-d4bbf5697b04" />
+
 
 Aba de Estoque:
 
-<img width="886" height="421" alt="image" src="https://github.com/user-attachments/assets/0f914434-5943-4001-8183-842cfca62e7c" />
+<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/f4f969dd-00df-47c3-bbd1-1333a2fd40df" />
 
 
-<img width="886" height="426" alt="image" src="https://github.com/user-attachments/assets/f2b299f3-cc43-4023-a2fd-20371b3a066f" />
+
+<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/46b81bb4-e65b-4f07-af97-e5f757c3029a" />
+
 
 
 Aba de Quartos:
 
-<img width="886" height="426" alt="image" src="https://github.com/user-attachments/assets/03a856a6-e0d0-4714-ab30-c6a1178b554c" />
+<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/6705f944-4820-4eb2-a12a-98145dc862f9" />
 
 
-<img width="886" height="426" alt="image" src="https://github.com/user-attachments/assets/7984656d-a13d-4501-9cfc-6b4dc2771896" />
+
+<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/9b9f165c-8e44-40fa-849d-6cc7f89bfc13" />
 
 
 Aba de Reservas:
 
-<img width="886" height="417" alt="image" src="https://github.com/user-attachments/assets/d185887a-4934-4d99-8c92-2dce045a50b4" />
+<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/d0d11219-8a7a-4b68-a8fe-85d446926553" />
 
-<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/f2c3b7fd-3d37-49c7-8c2a-e47f26290159" />
+<img width="886" height="420" alt="image" src="https://github.com/user-attachments/assets/6a8d0b1b-5de1-4b00-bee4-4101cebe547f" />
+
 
 
 Aba de Relatórios:
 
-<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/eb1b5841-7b7e-4ed7-8784-f050686ccb19" />
+<img width="886" height="419" alt="image" src="https://github.com/user-attachments/assets/b48e22c9-a66a-4572-a873-faa1dcc47dab" />
+
+<img width="886" height="950" alt="image" src="https://github.com/user-attachments/assets/c759880d-bc92-40c1-b36c-88d7cc7d9f65" />
+
+
 
 
 
