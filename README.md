@@ -217,7 +217,8 @@ Aba de Relatórios:
 <img width="886" height="476" alt="image" src="https://github.com/user-attachments/assets/62cd5a25-3cd1-4492-b548-a139a2c67146" />
 
 
-<img width="886" height="950" alt="image" src="https://github.com/user-attachments/assets/c759880d-bc92-40c1-b36c-88d7cc7d9f65" />
+<img width="795" height="852" alt="Captura de Tela (297)" src="https://github.com/user-attachments/assets/0a0e9c6d-6a6a-493b-9cd4-308206e890d9" />
+
 
 
 
