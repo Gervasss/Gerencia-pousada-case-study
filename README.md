@@ -176,44 +176,46 @@ npm run dev
 
 Painel:
 
-<img width="886" height="425" alt="image" src="https://github.com/user-attachments/assets/66bb9098-469f-4acc-8f0e-281b81f4c07b" />
+<img width="886" height="475" alt="image" src="https://github.com/user-attachments/assets/8d331591-40c8-4965-9a83-253c5a5bf9dd" />
+
 
 
 Aba de Hóspedes:
 
-<img width="886" height="422" alt="image" src="https://github.com/user-attachments/assets/ce2391ab-a8c3-4e14-b55e-d4bbf5697b04" />
+<img width="886" height="474" alt="image" src="https://github.com/user-attachments/assets/0523ba9a-abff-4492-9661-296c37224dc3" />
+
 
 
 Aba de Estoque:
 
-<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/f4f969dd-00df-47c3-bbd1-1333a2fd40df" />
+<img width="886" height="474" alt="image" src="https://github.com/user-attachments/assets/a8ed3423-f1d5-46ab-ab02-8a30767f8d2f" />
 
 
+<img width="886" height="474" alt="image" src="https://github.com/user-attachments/assets/ab59242c-361a-4fce-9be7-4dffca6d0ed0" />
 
-<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/46b81bb4-e65b-4f07-af97-e5f757c3029a" />
 
 
 
 Aba de Quartos:
 
-<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/6705f944-4820-4eb2-a12a-98145dc862f9" />
+<img width="886" height="472" alt="image" src="https://github.com/user-attachments/assets/6b943a8d-7ca2-4fdc-b433-48304fd41055" />
 
+<img width="886" height="475" alt="image" src="https://github.com/user-attachments/assets/5ac3074a-19a7-4919-9d34-8c699cac1735" />
 
-
-<img width="886" height="423" alt="image" src="https://github.com/user-attachments/assets/9b9f165c-8e44-40fa-849d-6cc7f89bfc13" />
 
 
 Aba de Reservas:
 
-<img width="886" height="424" alt="image" src="https://github.com/user-attachments/assets/d0d11219-8a7a-4b68-a8fe-85d446926553" />
+<img width="886" height="475" alt="image" src="https://github.com/user-attachments/assets/b5b50ca7-b3ec-4078-a40b-7413b702c0a8" />
+
 
 <img width="886" height="420" alt="image" src="https://github.com/user-attachments/assets/6a8d0b1b-5de1-4b00-bee4-4101cebe547f" />
 
 
 
 Aba de Relatórios:
+<img width="886" height="476" alt="image" src="https://github.com/user-attachments/assets/62cd5a25-3cd1-4492-b548-a139a2c67146" />
 
-<img width="886" height="419" alt="image" src="https://github.com/user-attachments/assets/b48e22c9-a66a-4572-a873-faa1dcc47dab" />
 
 <img width="886" height="950" alt="image" src="https://github.com/user-attachments/assets/c759880d-bc92-40c1-b36c-88d7cc7d9f65" />
 
