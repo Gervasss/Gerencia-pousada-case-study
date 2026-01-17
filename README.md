@@ -206,7 +206,8 @@ Aba de Quartos:
 
 Aba de Reservas:
 
-<img width="886" height="475" alt="image" src="https://github.com/user-attachments/assets/b5b50ca7-b3ec-4078-a40b-7413b702c0a8" />
+<img width="886" height="475" alt="image" src="https://github.com/user-attachments/assets/6a73bf88-2a1f-44d8-8076-cac07ee30b85" />
+
 
 
 <img width="886" height="420" alt="image" src="https://github.com/user-attachments/assets/6a8d0b1b-5de1-4b00-bee4-4101cebe547f" />
